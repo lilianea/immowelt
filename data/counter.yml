@@ -1,0 +1,11 @@
+enable : true
+heading : "IHR LANGJÄHRIGER PARTNER IN MÜNCHEN"
+counter_item: 
+  - title: "Jahre Erfahrung"
+    number: "25+"
+
+  - title: "Objekte in Datenbank"
+    number: "20000"
+
+  - title: "Tage im Jahr geöffnet"
+    number: "365"
