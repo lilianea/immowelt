@@ -1,3 +1,4 @@
-enable        : true
-title         : "UNSERE PHILOSOPHIE"
-text          : "Kurzer Beschreibungstext der Firma. "
+enable : true
+title : "UNSERE PHILOSOPHIE"
+text : "Kurzer Beschreibungstext der Firma. "
+
