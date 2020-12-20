@@ -8,23 +8,19 @@ summarylength = 25
 [menu]
   # Navbar Menus
   [[menu.nav]]
-    name    = "Home"
+    name    = "Start"
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "About"
+    name    = "Über uns"
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
+    name    = "News"
+    url     = "news"
     weight  = 4
   [[menu.nav]]
-    name    = "Get in touch"
+    name    = "Termin vereinbaren"
     url     = "contact"
     weight  = 5
 
@@ -66,50 +62,35 @@ summarylength = 25
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
+    title               = "VEREINBAREN SIE NOCH HEUTE IHREN TERMIN"
+    primary_button      = "EMAIL"
     primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
+    secondary_button    = "TELEFON"
     secondary_button_url = "portfolio"
 
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
+      title   = "Kontakt"
+      name = "Martin Schenk"
+      street = "Arcisstraße 66"
+      zip= "DE-80799"
+      city = "München"
+      phone   = "123456789"
       email   = "info@roxo.co"
       # Footer Sitemap
       [params.footer.sitemap]
-        title   = "Sitemap"
+        title   = "Weitere Informationen"
         [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
+          name = "Impressum"
+          url  = "imprint"
       # Footer Social Media
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
           name = "Medium"
           url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "Wir verwirklichen Träume"
+        description = "Sie haben den Wunsch nach einer neuen Immobilie? Mit uns träumen Sie nicht mehr!"
